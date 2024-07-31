@@ -58,9 +58,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleCommands\BetterSpawnCommand.cs" />
+    <Compile Include="ConsoleCommands\CheckForItems.cs" />
+    <Compile Include="Gui\CustomUiTooltip.cs" />
+    <Compile Include="Handlers\CraftFromStorage.cs" />
+    <Compile Include="Gui\Gui.cs" />
+    <Compile Include="Gui\ExtraInventoryButtonsGui.cs" />
+    <Compile Include="Gui\MultipleStorageAccessGui.cs" />
+    <Compile Include="Gui\QuickStorageAccessGui.cs" />
+    <Compile Include="Handlers\MovePiece.cs" />
+    <Compile Include="Handlers\MultipleStorageAccess.cs" />
+    <Compile Include="Models\ColorSettings.cs" />
+    <Compile Include="Models\InventorySortItem.cs" />
+    <Compile Include="Models\ItemCategory.cs" />
+    <Compile Include="Models\QuickStorageItem.cs" />
+    <Compile Include="Patches\GuiPatches.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
     <Compile Include="JotunnModStub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Handlers\CombineItems.cs" />
+    <Compile Include="Handlers\QuickStack.cs" />
+    <Compile Include="Handlers\SortInventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
