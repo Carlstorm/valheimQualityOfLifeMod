@@ -23,8 +23,8 @@ namespace JotunnModStub
         private List<Container> _nearbyContainers = new List<Container>();
         private List<ItemDrop> _nearbyItemDrops = new List<ItemDrop>();
 
-        public const string PluginGUID = "com.jotunn.jotunnmodstub";
-        public const string PluginName = "JotunnModStub";
+        public const string PluginGUID = "Carlstorm";
+        public const string PluginName = "QualityOfLifeCST";
         public const string PluginVersion = "0.0.1";
 
         private const float CheckInterval = 0.2f;
