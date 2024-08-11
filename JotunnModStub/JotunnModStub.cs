@@ -38,7 +38,7 @@ namespace JotunnModStub
         private MultipleStorageAccess _multipleStorageAccess;
 
 
-        private MovePiece _movePiece;
+        //private MovePiece _movePiece;
 
         //private QuickStorageAccessGui _quickStorageAccess;
         private MultipleStorageAccessGui _multipleStorageAccessGui;
@@ -74,7 +74,7 @@ namespace JotunnModStub
 
         private void InitializeComponents()
         {
-            _movePiece = gameObject.AddComponent<MovePiece>();
+            //_movePiece = gameObject.AddComponent<MovePiece>();
 
             _combItems = gameObject.AddComponent<CombineItemsMod>();
             _craftFromStorage = gameObject.AddComponent<CraftFromStorageMod>();
